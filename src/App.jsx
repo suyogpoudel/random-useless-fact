@@ -50,7 +50,7 @@ const App = () => {
             <span className='hover:opacity-90 active:opacity-75 cursor-pointer' onClick={() => toggleDarkMode()}>{
                 darkMode ? <HugeiconsIcon icon={Sun01Icon} size={40}/> : <HugeiconsIcon icon={Moon02Icon} size={40}/>
             }</span>
-            <h1 className='text-center text-[50px]'>Random Useless Fact Generator</h1>
+            <h1 className='text-center text-[50px]'>Random Useless Facts</h1>
 
             <Fact randomFact={randomFact} />
             <div className='flex justify-center items-center mt-4'>
