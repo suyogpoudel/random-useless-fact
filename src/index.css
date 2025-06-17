@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --font-main: 'Winky Sans', sans-serif;
+}
+
+@layer base {
+    body {
+    @apply bg-slate-300 text-slate-900 dark:bg-slate-900 dark:text-slate-300 m-0 p-0 box-border font-main;
+    }
+}
